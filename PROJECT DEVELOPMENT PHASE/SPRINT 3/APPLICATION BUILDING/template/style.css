@@ -1,0 +1,223 @@
+.{
+  margin:0;
+  padding:0;
+}
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgb(25, 186, 204),url(IMG_20190621_142106.jpg));
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1300px;
+    height: 25px;
+    margin: 20px;
+}
+.icon{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgba(15, 49, 153, 0.863);
+    font-size: 50px;
+    font-family: 'bebas';
+    padding-right: 250px;
+    float: down-center;
+    position:center;
+    padding-top: 300px;
+    padding-left:120px;
+    font-weight: bolder;
+
+}
+
+.menu{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+u1{
+    float: left;
+    display: flex;
+    border:
+    justify-content: center;
+    align-items:center;
+
+}
+ul li {
+    list-style: none;
+    margin-right: 162px;
+    padding-right: 450px;
+    margin-top: 240px;
+    font-size: 18px;
+}
+u1 li a{
+    text-decoration: none;
+    color:rgb(26, 150, 129);
+    margin-top: 340px
+    padding-right: 25px;
+    padding-left: 10px;
+    position:center;
+    font-family: 'arial';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+u1 li a:hover{
+    color: rgb(8, 135, 116);
+}
+/*.............home............*/
+.content{
+    font-size:48px;
+    color:purple;
+    font-family: 'sego';
+    font-weight: bold;
+}
+.par{
+    padding-left: 10px;
+    padding-bottom: 35px;
+    font-size:28px;
+    color:black
+    font-family: time new roman;
+    letter-spacing: 1.5px;
+    line-height: 60px;
+}
+
+/*....................register............*/
+.
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container{
+float: left;
+    
+}
+.container.h1 {
+  padding-left: 20px;
+  font-size:14px;
+  color:rgba(20, 129, 231, 0.397);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #0fb87a;
+  color:white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</header>
+<footer>
+
+/*..................Sign-in.............*/
+
+<header>
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .sign-inbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "none";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .sign-inbtn {
+    width: 50%;
+  }
+}
+</header>
+<footer>
